@@ -1,0 +1,28 @@
+.logo {
+  color: $secondary-title-text-color;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  @media screen and (max-width: 767px) {
+    padding: 16px 0;
+  }
+
+&__accent {
+  color: $accent-color;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+}
+
+.page-footer__logo {
+  color: $white-color;
+}

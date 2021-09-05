@@ -1,0 +1,48 @@
+body {
+  background-color: $primary-background-color;
+  color: $primary-text-color;
+
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  min-width: 320px;
+  max-width: 1170px;
+}
+
+.qualities__title--none,
+.our-projects__title--none {
+  visibility: hidden;
+  font-size: 0;
+}
