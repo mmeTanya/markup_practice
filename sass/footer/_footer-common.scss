@@ -1,0 +1,61 @@
+.page-footer {
+  background-color: $secondary-background-color;
+  padding: 60px 0px;
+
+  &__container {
+    text-align: center;
+  }
+
+  &__title {
+    color: $white-color;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-union {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page-footer .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .container-union {
+    justify-content: space-between;
+  }
+
+  .contact-container {
+    text-align: start;
+    margin-bottom: 0;
+  }
+  .join-us {
+    margin-left: 70px;
+    text-align: start;
+  }
+  .subscribe {
+    text-align: start;
+
+    &__place {
+      display: flex;
+      align-items: center;
+    }
+    &__input {
+      width: 358px;
+      margin-right: 12px;
+    }
+  }
+}

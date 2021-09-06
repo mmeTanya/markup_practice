@@ -12,14 +12,14 @@
   outline: none;
   fill: $primary-title-text-color;
 
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 }
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-    fill: $accent-color
+  fill: $accent-color;
 }
 
 .menu-container {
@@ -35,83 +35,83 @@
   transform: translateX(-100%);
   transition: transform 250ms ease-in-out;
 
-&.is-open {
-  transform: translateX(0);
-}
+  &.is-open {
+    transform: translateX(0);
+  }
 
-& .menu-toggle {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  color: #fff;
-}
+  & .menu-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #fff;
+  }
 }
 
 .mobile-menu {
   margin: 0;
   list-style: none;
 
-&__list {
+  &__list {
     margin-bottom: 302px;
-}
+  }
 
-&__item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-bottom: 32px;
-}
+  }
 
-&__link {
-      font-weight: 500;
-      font-size: 40px;
-      line-height: 1.175;
-      letter-spacing: 0.02em;
-      color: $primary-title-text-color;
+  &__link {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
+    color: $primary-title-text-color;
 
-      &:focus,
-      &:hover {
-        color: $accent-color;
-      }
+    &:focus,
+    &:hover {
+      color: $accent-color;
     }
+  }
 
-    &__contact-link {
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 1.172;
-      letter-spacing: 0.02em;
-      color: $primary-text-color;
-      &:hover,
-      &:focus {
-          font-size: 34px;
-          color: $accent-color;
-      }
+  &__contact-link {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.172;
+    letter-spacing: 0.02em;
+    color: $primary-text-color;
+    &:hover,
+    &:focus {
+      font-size: 34px;
+      color: $accent-color;
     }
-    
-    &__contact {
+  }
+
+  &__contact {
     margin-bottom: 64px;
-    }
+  }
 
-    &__social-list {
+  &__social-list {
     display: inline-flex;
     align-items: center;
-    }
+  }
 
-    &__social-item:not(:last-child) {
+  &__social-item:not(:last-child) {
     margin-right: 20px;
-    }
-    }
+  }
+}
 
-     .mobile-menu__social-link {
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 1.22;
-      letter-spacing: 0.02em;
-      color: $accent-color;
+.mobile-menu__social-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: $accent-color;
 
-      &--line::after {
-        content: "";
-        width: 22px;
-        height: 0;
-        border: 1px solid rgba(33, 33, 33, 0.2);
-        transform: rotate(90deg);
-        margin-left: 10px;
-      }
-    }
+  &--line::after {
+    content: '';
+    width: 22px;
+    height: 0;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+    margin-left: 10px;
+  }
+}

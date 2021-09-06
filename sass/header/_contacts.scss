@@ -1,0 +1,47 @@
+.contact {
+  margin-left: auto;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item:not(:last-child) {
+    @media screen and (max-width: 1199px) {
+      margin-bottom: 10px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 50px;
+    }
+  }
+
+  &__icon {
+    padding: 0;
+    border: 0;
+    margin-right: 10px;
+  }
+
+  &__link {
+    color: $primary-text-color;
+    fill: currentColor;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+
+    display: flex;
+    align-items: center;
+    transition: color $transition-duration $timing-function;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+}

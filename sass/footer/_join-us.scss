@@ -1,0 +1,36 @@
+.join-us {
+  text-align: center;
+  margin-bottom: 60px;
+
+  &__social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__social-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.join-us__social-item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.join-us__social-link {
+  @extend %social-link;
+  fill: $white-color;
+  background-color: $icons-background-color;
+
+  transition: background-color $transition-duration $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
