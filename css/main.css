@@ -276,9 +276,6 @@ address {
   margin: 0;
   height: 100%;
 }
-.mobile-menu__list {
-  margin-bottom: 302px;
-}
 .mobile-menu__item:not(:last-child) {
   margin-bottom: 32px;
 }
