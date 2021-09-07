@@ -24,38 +24,32 @@
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+    margin-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .page-footer .container {
+  .page-footer__container {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    text-align: start;
   }
+
 
   .container-union {
     justify-content: space-between;
+    margin-bottom: 0;
   }
 
   .contact-container {
-    text-align: start;
     margin-bottom: 0;
   }
   .join-us {
     margin-left: 70px;
-    text-align: start;
   }
-  .subscribe {
-    text-align: start;
-
-    &__place {
+  .subscribe__place {
       display: flex;
       align-items: center;
     }
-    &__input {
-      width: 358px;
-      margin-right: 12px;
-    }
   }
-}

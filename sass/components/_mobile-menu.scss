@@ -48,8 +48,11 @@
 }
 
 .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 0;
-  list-style: none;
+  height: 100%;
 
   &__list {
     margin-bottom: 302px;
@@ -68,6 +71,9 @@
 
     &:focus,
     &:hover {
+      color: $accent-color;
+    }
+    &--current {
       color: $accent-color;
     }
   }

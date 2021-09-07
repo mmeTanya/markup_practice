@@ -1,5 +1,7 @@
 .contact-container {
+  @media screen and (max-width: 767px){
   margin-bottom: 60px;
+}
 }
 
 .page-footer__contact-item:not(:last-child) {

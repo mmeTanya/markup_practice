@@ -1,12 +1,8 @@
-.subscribe {
-  text-align: center;
-}
-
 .subscribe__input {
-  width: 100%;
-  max-width: 450px;
+  width: 450px;
   height: 50px;
   padding: 15px 16px;
+  margin-bottom: 20px;
 
   @include bordered(1px, $third-text-color);
   border-radius: 4px;
@@ -22,7 +18,8 @@
   &::placeholder {
     color: $secondary-text-color;
   }
-  @media screen and (max-width: 1199px){
-     margin-bottom: 20px;
+  @media screen and (min-width: 1200px){
+    margin: 0 12px 0 0;
+    width: 358px;
   }
 }

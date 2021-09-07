@@ -1,11 +1,11 @@
 .join-us {
-  text-align: center;
+  @media screen and (max-width: 767px){
   margin-bottom: 60px;
-
+}
   &__social-list {
     display: flex;
     justify-content: center;
-    align-items: center;
+
   }
   &__social-icon {
     width: 20px;
